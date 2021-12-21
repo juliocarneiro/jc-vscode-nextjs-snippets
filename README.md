@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://juliocarneiro.dev">
-    <img src="https://iili.io/YFSWDG.png" width="150" alt="Logo">
+    <img src="https://iili.io/YFSWDG.png" width="250" alt="Logo">
   </a>
 
   <h3 align="center">NextJS Snippets</h3>
