@@ -28,5 +28,45 @@
       "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
     ],
     "description": "Create NextJS Functional Component Typescript with styled"
-  }	
+  },
+  "getStaticPropsTypescript": {
+    "prefix": "gsp",
+    "body": [
+      "export async function getStaticProps(context) {",
+      " const res = await fetch(`https://.../data`)",
+      " const data = await res.json()",
+      "",
+      " if (!data) {",
+      "   return {",
+      "     notFound: true,",
+      "   }",
+      " }",
+      "",
+      " return {",
+      "   props: { data }, // will be passed to the page component as props",
+      " }",
+      "}"
+    ],
+    "description": "Create getStaticProps Typescript"
+  },
+  "getServerSidePropsTypescript": {
+    "prefix": "gssp",
+    "body": [
+      "export async function getServerSideProps(context) {",
+      " const res = await fetch(`https://.../data`)",
+      " const data = await res.json()",
+      "",
+      " if (!data) {",
+      "   return {",
+      "     notFound: true,",
+      "   }",
+      " }",
+      "",
+      " return {",
+      "   props: {}, // will be passed to the page component as props",
+      " }",
+      "}"
+    ],
+    "description": "Create getServerSideProps Typescript"
+  }
 }

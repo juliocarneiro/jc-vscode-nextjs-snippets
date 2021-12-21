@@ -56,6 +56,8 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 | -------------------------: | ----------------------------------------------------------------------------- |
 |                    `nfc →` | Cria um Componente **Functional**                                             |
 |                    `snc →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                    `gsp →` | Cria uma função de **getStaticProps**                                         |
+|                   `gssp →` | Cria uma função de **getServerSideProps**                                     |
 
 <!-- CONTRIBUTING -->
 
