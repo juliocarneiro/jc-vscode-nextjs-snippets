@@ -54,8 +54,8 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 
 |                    Gatilho | Conteúdo                                                                      |
 | -------------------------: | ----------------------------------------------------------------------------- |
-|                    `rfc →` | Cria um Componente **Functional**                                             |
-|           `styled-react →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                    `nfc →` | Cria um Componente **Functional**                                             |
+|                    `snc →` | Cria um arquivo de Estilização com **Styled Components**                      |
 
 <!-- CONTRIBUTING -->
 

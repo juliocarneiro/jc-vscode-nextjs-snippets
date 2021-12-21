@@ -1,6 +1,6 @@
 {
   "styles": {
-    "prefix": "styled-react",
+    "prefix": "snc",
     "body": [
       "import styled from 'styled-components';",
       "",
@@ -13,7 +13,7 @@
   },
 
   "componentFunctionalTypescript": {
-    "prefix": "rfc",
+    "prefix": "nfc",
     "body": [
       "import React from 'react';",
       "",
