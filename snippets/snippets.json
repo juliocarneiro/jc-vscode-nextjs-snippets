@@ -4,7 +4,7 @@
     "body": [
       "import styled from 'styled-components';",
       "",
-      "export const ${1:Container} = styled.${2:div}`",
+      "export const ${1:Wrapper} = styled.${2:div}`",
       "  ${3}",
       "`;",
       ""
@@ -17,14 +17,16 @@
     "body": [
       "import React from 'react';",
       "",
-      "// import { Container } from './styles';",
+      "// import { Wrapper } from './styles';",
       "",
       "function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
-      "  return <div />;",
+      "  return (",
+      "    <Wrapper>Hello :)</Wrapper>",
+      "  )",
       "}",
       "",
       "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}};"
     ],
-    "description": "Create NextJS Functional Component Typescript"
+    "description": "Create NextJS Functional Component Typescript with styled"
   }	
 }
