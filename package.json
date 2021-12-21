@@ -1,0 +1,46 @@
+{
+  "name": "juliocarneironextjs",
+  "description": "NextJS snippets created by Júlio Carneiro.",
+  "version": "1.0.0",
+  "displayName": "NextJS Snippets",
+  "publisher": "juliocarneiro",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#000",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliocarneiro/jc-vscode-nextjs-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptnext",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescriptnext",
+        "path": "./snippets/snippets-ts.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.75.0"
+  }
+}
